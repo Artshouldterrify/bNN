@@ -103,7 +103,6 @@ class input_layer(layer):
     def perceptron_update(self, net_output, t_in):
         for i in range(self.size):
             self.weights[i][0] += self.alpha * net_output * t_in[i]
-        print("UP")
         return
 
 
