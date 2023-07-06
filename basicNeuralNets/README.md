@@ -144,8 +144,8 @@ Initialize an object of this class as `PerceptronNetwork(inp_n, alpha)`.
 
 `alpha` is a float in the range [0,1] denoting the training rate of the network.
 
-(**Note**: This type of network works solely on binary classification problems and require 
-features to be scaled on a bipolar scale, hence the use of `BNN.normalize_bipolar()`)
+(**Note**: This type of network works solely on binary classification problems and requires
+features to be on a bipolar scale, hence the use of `BNN.normalize_bipolar()`)
 ```python
 import numpy as np
 import pandas as pd
