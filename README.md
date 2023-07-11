@@ -8,7 +8,7 @@ pip install -i https://test.pypi.org/simple/ basicNeuralNetworks
 ```
 
 ## Getting started
-Navigate to the basicNeuralNets folder in this repository and refer to the README document.
+Refer to this document for the working of this library.
 
 Alternatively, documentation for this package can be found at: https://test.pypi.org/project/basicNeuralNetworks/
 
@@ -18,8 +18,6 @@ All examples and datasets used are part of the main directory.
 ***
 A library implementing 3 basic neural networks from scratch: Perceptrons, Adaptive Linear Neurons and 
 Backpropogation networks.
-
-## Getting Started
 
 ### 1. Backpropogation Networks
 Backpropogation networks are implemented via instances of the `BackpropogationNetwork` class.
