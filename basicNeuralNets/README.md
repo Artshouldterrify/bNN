@@ -26,7 +26,7 @@ import matplotlib.pyplot as plt
 import basicNeuralNets as BNN
 
 
-ds = pd.read_csv("../diabetes.csv", header=None)
+ds = pd.read_csv("/diabetes.csv", header=None)
 inst = BNN.BackpropogationNetwork(1, 10, len(ds.iloc[0])-1, 2, 0.2)
 ```
 (Importing the diabetes dataset and creating a backpropogation network with 1 hidden layer, 
@@ -101,7 +101,7 @@ import matplotlib.pyplot as plt
 import basicNeuralNets as BNN
 
 
-ds = pd.read_csv("../ionosphere.csv", header=None)
+ds = pd.read_csv("/ionosphere.csv", header=None)
 f = len(ds.iloc[0]) - 1
 ds.replace(to_replace=["b", "g"], value=[-1.0, 1.0], inplace=True)
 inst = BNN.AdalineNetwork(f, 0.1)
@@ -153,7 +153,7 @@ import matplotlib.pyplot as plt
 import basicNeuralNets as BNN
 
 
-ds = pd.read_csv("../sonar.csv", header=None)
+ds = pd.read_csv("/sonar.csv", header=None)
 f = len(ds.iloc[0]) - 1
 inst = BNN.PerceptronNetwork(f, 0.02)
 ds.replace(to_replace=["R", "M"], value=[-1.0, 1.0], inplace=True)
